@@ -1,0 +1,148 @@
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+    background-image: url(../assets/blob.svg);
+    background-repeat: no-repeat;
+    z-index: 10;
+    background-position: right;
+
+}
+
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float: left;
+    width: 55%;
+}
+
+.about-image{
+    float: right;
+    width: 40%;
+}
+.about-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.content-section .title::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #60A5FA;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #60A5FA;
+    font-size: 1rem;
+
+}
+
+/* .content-section .content h3::after{
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #60A5FA;
+} */
+
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    /* font-size: 18px; */
+    line-height: 1.5;
+}
+
+
+
+
+.content-section .content .button {
+    margin-top: 30px;
+
+
+}
+
+.content-section .content .button a{
+    background-color: #FDE047;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15 px;
+    letter-spacing: 1.5px;
+    border-radius: 0.5rem;
+
+}
+
+.content-section .content .button a:hover{
+    background-color: #60A5FA;
+    color: #fff;
+
+
+}
+
+.content-section .social i{
+    color:   #60A5FA;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.content-section .social i:hover{
+    color: #FDE047;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .about-image{
+        float: none;
+        width: 100%;
+
+    }
+
+    .about-image img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+}

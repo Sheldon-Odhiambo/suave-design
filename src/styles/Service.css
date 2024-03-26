@@ -1,0 +1,152 @@
+.our-digital-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    background-image: url(../assets/blb/molecule-blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* background-size: 180% 180%; */
+    background-position: center;
+    
+
+}
+
+.our-digital-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.our-digital-container h3{
+    color:  #60A5FA;
+    font-size: 1rem;
+}
+
+.our-print-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    flex-direction: row-reverse;
+    background-image: url(../assets/sliced-bread-blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* background-size: 180% 180%; */
+    background-position: top;
+
+}
+
+.our-print-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+
+.our-brand-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    background-image: url(../assets/blb/pentagon-blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* background-size: 180% 180%; */
+    background-position: top;
+
+}
+
+.our-brand-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.our-photography-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    flex-direction: row-reverse;
+    background-image: url(../assets/catcher-mit-blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* background-size: 180% 180%; */
+    background-position: top;
+
+}
+
+.our-photography-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.our-consultation-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    background-image: url(../assets/blb/pentagon-blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* background-size: 180% 180%; */
+    background-position: top;
+
+}
+
+.our-consultation-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+.our-promotion-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 7.5%;
+    margin-top: 80px;
+    flex-direction: row-reverse;
+    background-image: url(../assets/squoval-blob.svg);
+    /* background-size: cover;
+    background-attachment: fixed; */
+    background-repeat: no-repeat;
+    z-index: 10;
+    /* background-size: 180% 180%; */
+    background-position: top;
+
+
+
+
+}
+
+.our-promotion-container > img{
+    width: 48%;
+    border-radius: 0.5rem;
+
+}
+
+
+
+
+
+
+
+
