@@ -1,7 +1,9 @@
 .section{
     width: 100%;
     min-height: 100vh;
-    background-color: #ddd;
+    background-color:  #f5f8ff;
+    border-top-left-radius: 3000px;
+    border-bottom-right-radius: 3000px;
     background-image: url("../assets/blb/blob.svg");
     background-repeat: no-repeat;
     z-index: 10;
