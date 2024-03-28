@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/Footer.css"
+// import "../styles/Footer.css"
 import logo from "../assets/slogo.png"
 
 const Footer = () => {
@@ -22,25 +22,25 @@ const Footer = () => {
                     <h3>Links <div className="underline"><span></span></div></h3>
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">Faqs</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="./about.htmls">About</a></li>
+                        <li><a href=".service.html">Service</a></li>
+                        <li><a href="./faqs.html">Faqs</a></li>
+                        <li><a href="./blogs.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div className="col">
                     <h3>Newsletter <div className="underline"><span></span></div></h3>
                     <form>
-                        <i className="far fa-envelope"></i>
+                        <i className="fa-solid fa-envelope"></i>
                         <input type="email" placeholder="Enter your email id" required />
                         <button type="submit"><i className="fas fa-arrow-right"></i></button>
                     </form>
                     <div className="social-icons">
                         <i className="fab fa-whatsapp"></i>
-                        <i className="fab fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                         <i className="fab fa-instagram"></i>
-                        <i className="fab fa-facebook"></i>
+                        <i className="fa-brands fa-facebook-f"></i>
                     </div>
                 </div>
             </div>
