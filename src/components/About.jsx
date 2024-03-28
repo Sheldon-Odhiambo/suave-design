@@ -1,11 +1,12 @@
 import React from 'react'
 import "../styles/About.css"
-import about from "../assets/innovation.jpg"
+import about from "../assets/about.jpg"
+// import Footer from './Footer'
 
 const About = () => {
   return (
-    
-    <div className="section">
+
+      <div className="section">
         <div className="container">
             <div className="content-section">
                 <div className="title">
@@ -28,6 +29,8 @@ const About = () => {
             </div>
         </div>
     </div>
+    
+
     
 
 

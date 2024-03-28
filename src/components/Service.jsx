@@ -5,11 +5,12 @@ import service2 from "../assets/serv2.jpg"
 import service3 from "../assets/serv3.jpg"
 import service4 from "../assets/serv4.jpg"
 import service5 from "../assets/serv5.jpg"
+// import Footer from "./Footer"
 
 const Service = () => {
   return (
 
-  <div className="service-main-container">
+ <div className="service-main-container">
     
     <section   className="our-digital-container">
       <div className="our-digital-text">
@@ -64,7 +65,10 @@ const Service = () => {
     
    
   </div>
+
   
+
+ 
 
   )
 }

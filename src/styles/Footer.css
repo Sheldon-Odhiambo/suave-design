@@ -1,11 +1,11 @@
 .footer-container{
-    background: #eef8ff;
+    background:  #f5f8ff;
 
 }
 
 footer{
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;

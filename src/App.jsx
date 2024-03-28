@@ -5,7 +5,6 @@ import About from './components/About'
 import Service from './components/Service'
 import Faqs from './components/Faqs'
 import Footer from './components/Footer'
-import Footerfom from './components/Footerfom'
 
 const App = () => {
   return (
@@ -16,16 +15,13 @@ const App = () => {
 <Route path="/about" element={<About/>}/>
 <Route path="/service" element={<Service/>}/>
 <Route path="faqs" element={<Faqs/>}/>
-<Route path="footer" element={<Footer/>}/>
-<Route path="footerfom" element={<Footerfom/>}/>
 
 
 
 
 
 </Routes>
-
-
+{/* <Footer/> */}
 </>
 
 

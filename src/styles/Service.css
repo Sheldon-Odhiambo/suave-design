@@ -153,6 +153,10 @@
     z-index: 10;
     /* background-size: 180% 180%; */
     background-position: top;
+    background-color:  #f5f8ff;
+    border-top-left-radius: 3000px;
+    border-bottom-right-radius: 3000px;
+
 
 
 
