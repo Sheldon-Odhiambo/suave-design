@@ -165,7 +165,39 @@
 
 }
 
+/* Media Query for phone-sized devices */
+@media only screen and (max-width: 767px) {
+    .our-digital-container,
+    .our-print-container,
+    .our-brand-container,
+    .our-photography-container,
+    .our-consultation-container,
+    .our-promotion-container {
+        display: block; /* Change to block for stacked layout on phones */
+        padding: 20px 5%; /* Adjust padding for smaller screens */
+    }
+    
+    .our-digital-container > img,
+    .our-print-container > img,
+    .our-brand-container > img,
+    .our-photography-container > img,
+    .our-consultation-container > img,
+    .our-promotion-container > img {
+        width: 100%; /* Make images full-width on smaller screens */
+    }
+}
 
+/* Media Query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .our-digital-container,
+    .our-print-container,
+    .our-brand-container,
+    .our-photography-container,
+    .our-consultation-container,
+    .our-promotion-container {
+        /* Adjust styles for tablets as needed */
+    }
+}
 
 
 
