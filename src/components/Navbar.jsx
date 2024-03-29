@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
 
         <nav className={showNav ? 'open' : ''}>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/home'>Home</NavLink>
           <NavLink to='/about'>About Us</NavLink>
           <NavLink to='/service'>Services</NavLink>
           <NavLink to='/faqs'>Faqs</NavLink>
