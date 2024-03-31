@@ -1,10 +1,13 @@
 import React from 'react'
 import "../styles/About.css"
+import Title from "./Title"
 import about from "../assets/about.jpg"
 // import Footer from './Footer'
 
 const About = () => {
   return (
+
+    <>   
 
       <div className="section">
         <div className="container">
@@ -30,6 +33,7 @@ const About = () => {
         </div>
     </div>
     
+    </>
 
     
 

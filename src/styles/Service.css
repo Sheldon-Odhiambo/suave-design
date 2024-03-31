@@ -26,6 +26,11 @@
 .our-digital-container > img{
     width: 48%;
     border-radius: 0.5rem;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.our-digital-container > img:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -54,6 +59,11 @@
 .our-print-container > img{
     width: 48%;
     border-radius: 0.5rem;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.our-print-container > img:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -82,6 +92,11 @@
 .our-brand-container > img{
     width: 48%;
     border-radius: 0.5rem;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.our-brand-container > img:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -108,6 +123,11 @@
 .our-photography-container > img{
     width: 48%;
     border-radius: 0.5rem;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.our-photography-container > img:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -136,6 +156,10 @@
 .our-consultation-container > img{
     width: 48%;
     border-radius: 0.5rem;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+.our-consultation-container > img:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -166,6 +190,11 @@
 .our-promotion-container > img{
     width: 48%;
     border-radius: 0.5rem;
+    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.our-promotion-container > img:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
 }
 

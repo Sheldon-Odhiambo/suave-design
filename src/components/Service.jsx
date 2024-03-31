@@ -5,10 +5,17 @@ import service2 from "../assets/serv2.jpg"
 import service3 from "../assets/serv3.jpg"
 import service4 from "../assets/serv4.jpg"
 import service5 from "../assets/serv5.jpg"
+import Title from "./Title"
 // import Footer from "./Footer"
 
 const Service = () => {
   return (
+
+
+    <>
+
+<Title title='Our Service'/>
+
 
  <div className="service-main-container">
     
@@ -66,7 +73,7 @@ const Service = () => {
    
   </div>
 
-  
+  </>
 
  
 

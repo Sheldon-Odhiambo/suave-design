@@ -1,0 +1,93 @@
+.contact-paragraph {
+    text-align: center;
+    margin: 4rem auto 3rem;
+}
+
+.contact-main-container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    gap: 2%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+.contact-info-container{
+    background:  linear-gradient(to right, #00093c, #2d0b00);;
+    border-radius: 0.8rem;
+    color: #fff;
+    width: 48%;
+    padding: 1rem 2rem;
+
+}
+.contact-social-links a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    
+}
+.contact-icon-background{
+    height: 2rem;
+    width: 2rem;
+    background-color: #FDE047;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.contact-icon-background i {
+    color:  #60A5FA;
+}
+
+.contact-form {
+    width: 48%;
+    padding-right: 1rem;
+    margin-left: auto; /* Align form to the right within the flex container */
+}
+
+.contact-form fieldset {
+    border: none;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: .9rem;
+    margin-bottom: 4px; /* Add margin below the label for better spacing */
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    margin-top: 4px;
+    margin-bottom: 10px; /* Add margin below the input fields for better spacing */
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #60A5FA;
+    border: 1px solid #60A5FA;
+    font-size: 1rem;
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 10px; 
+    align-self: flex-end; 
+}
+.contact-form button:hover{
+    cursor: pointer;
+}

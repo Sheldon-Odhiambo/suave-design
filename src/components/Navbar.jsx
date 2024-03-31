@@ -22,7 +22,6 @@ const Navbar = () => {
           <NavLink to='/about'>About Us</NavLink>
           <NavLink to='/service'>Services</NavLink>
           <NavLink to='/faqs'>Faqs</NavLink>
-          <NavLink to='/blog'>Blog</NavLink>
           <NavLink to='/contact'>Contact</NavLink>
         </nav>
       </div>
