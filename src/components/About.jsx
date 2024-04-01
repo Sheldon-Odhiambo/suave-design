@@ -19,7 +19,7 @@ const About = () => {
                     <h3>Creative Printing & Branding</h3>
                     <p>Based in Kenya, our dynamic design company comprises a skilled team ready to transform visions into impactful designs. From local projects to ventures across Africa and globally, our professionals bring a versatile and creative touch to every endeavor. Explore the intersection of innovation and expertise with our committed team, delivering design excellence that transcends borders.</p>
                     <div className="button">
-                        <a href="">Read More</a>
+                        <a href="https://www.instagram.com/suaveaccessories/">Read More</a>
                     </div>
                 </div>
                 <div className="social">
