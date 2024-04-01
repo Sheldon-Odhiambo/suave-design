@@ -46,8 +46,9 @@
 }
 
 .contact-form {
+    display: grid;
     width: 48%;
-    padding-right: 1rem;
+    padding-right: 3rem;
     margin-left: auto; /* Align form to the right within the flex container */
 }
 

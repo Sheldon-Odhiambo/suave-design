@@ -1,14 +1,18 @@
 import React from 'react'
 import "../styles/Contact.css"
+import Title from './Title'
 
 const Contact = () => {
   return (
     
 
+    <>
+    <Title title='Contact Us'/>
+
     <section className="contacts">
 
     
-    <p className='contact-paragraph'>Any Challange or remarks? Just write us a message!</p>
+    <p className='contact-paragraph'>Any Request or remarks? Just write us a message!</p>
     
     {/* <p style="margin: -4rem auto 3rem;text-align:center; margin-top: 2rem;">Any question or remarks? Just write us a message!</p> */}
     
@@ -55,8 +59,8 @@ const Contact = () => {
                 <input type="text" placeholder="subject" name="Subject"/>
             </fieldset>
             <fieldset>
-                <label>Your Challange</label>
-                <textarea name="Message" placeholder="write your challange here" ></textarea>
+                <label>Your Request</label>
+                <textarea name="Message" placeholder="write your Request here" ></textarea>
             </fieldset>
             <button type="submit">Submit</button>
             
@@ -65,7 +69,8 @@ const Contact = () => {
     </div>
     </section>
    
-    
+    </>
+
 
   )
 }
