@@ -21,8 +21,8 @@ const Footer = () => {
                 <div className="col">
                     <h3>Links <div className="underline"><span></span></div></h3>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="./about.htmls">About</a></li>
+                        <li><a href=".index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
                         <li><a href=".service.html">Service</a></li>
                         <li><a href="./faqs.html">Faqs</a></li>
                         <li><a href="./blogs.html">Blog</a></li>
