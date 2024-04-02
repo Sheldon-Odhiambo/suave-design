@@ -5,6 +5,7 @@ const Title = ({title}) => {
   return (
     <div className="title">
         <h1 className="sectionTitle">{title}</h1>
+        <hr />
     
 
     </div>  

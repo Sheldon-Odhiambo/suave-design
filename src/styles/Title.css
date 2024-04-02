@@ -1,6 +1,4 @@
 .sectionTitle {
-    width: 300px;
-    border-bottom: 3px solid #60A5FA;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -10,12 +8,10 @@
     text-transform: uppercase;
 }
 
-.sectionTitle::after {
-    content: ''; 
-    position: absolute;
-    bottom: -3px; /* Adjust the positioning to align with the bottom of the text */
-    left: 0; /* Position at the start of the text */
-    width: 10%; /* Cover the width of the first letter */
-    height: 3px; 
-    background-color: #60A5FA;
+.title hr{
+    border: none;
+    border-bottom: 3px solid #60A5FA;
+    width: 50px;
+    margin-top: -5px;
+
 }
