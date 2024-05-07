@@ -22,10 +22,10 @@ const About = () => {
                         <a href="https://www.instagram.com/suaveaccessories/">Read More</a>
                     </div>
                 </div>
-                <div className="social">
+                {/* <div className="social">
                     <a href="https://www.instagram.com/suaveaccessories/"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.instagram.com/suaveaccessories/"><i class="fa-brands fa-x-twitter"></i></a>
-                </div>
+                </div> */}
             </div>
             <div className="about-image">
                 <img src={about} alt="" />
