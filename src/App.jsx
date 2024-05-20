@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Title from './components/Title'
 import Ruler from './components/Ruler'
 import NotFound from './components/NotFound'
+import House from './components/House'
 
 
 
@@ -25,14 +26,16 @@ const App = () => {
 <Route path="/ruler" element={<Ruler/>}/>
 <Route path="/footer" element={<Footer/>}/>
 <Route path="*" element={<NotFound/>}/>
+<Route path="/house" element={<House/>}/>
+
 
 
 
 
 
 </Routes>
-<Footer/>
-{/* <Ruler/> */}
+{/* <Footer/> */}
+<Ruler/>
 </>
 
 
