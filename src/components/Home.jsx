@@ -4,10 +4,9 @@ import service1 from '../assets/serv4.jpg';
 import service2 from '../assets/serv2.jpg';
 import service3 from '../assets/serv3.jpg';
 import service4 from '../assets/serv4.jpg';
-import about from '../assets/about.jpg';
+import "../styles/Home.css"
 
-// import Typed from 'typed.js';
-import '../styles/Home.css';
+
 
 const Home = () => {
   const el = useRef(null);
