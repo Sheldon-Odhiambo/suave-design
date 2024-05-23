@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Home from './components/Home'
+// import Home from './components/Home'
 import About from './components/About'
 import Service from './components/Service'
 import Faqs from './components/Faqs'
@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 import Title from './components/Title'
 import Ruler from './components/Ruler'
 import NotFound from './components/NotFound'
-import House from './components/House'
+import Home from './components/Home'
 
 
 
@@ -18,7 +18,7 @@ const App = () => {
     <>
     <Navbar/>
 <Routes>
-<Route path="/" element={<Home/>}/>
+{/* <Route path="/" element={<Home/>}/> */}
 <Route path="/about" element={<About/>}/>
 <Route path="/service" element={<Service/>}/>
 <Route path="/faqs" element={<Faqs/>}/>
@@ -26,7 +26,7 @@ const App = () => {
 <Route path="/ruler" element={<Ruler/>}/>
 <Route path="/footer" element={<Footer/>}/>
 <Route path="*" element={<NotFound/>}/>
-<Route path="/house" element={<House/>}/>
+<Route path="/home" element={<Home/>}/>
 
 
 
