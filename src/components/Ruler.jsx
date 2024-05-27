@@ -13,7 +13,7 @@ const Ruler = () => {
         </div>
         <nav className="ruler__nav">
           <ul>
-            <li><Link to="/house">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/service">Services</Link></li>
             <li><Link to="/contact">Contact</Link></li>
@@ -21,7 +21,7 @@ const Ruler = () => {
         </nav>
         <div className="ruler__bottom">
           <p>&copy; 2024 Suave Design</p>
-          <p className="ruler__location">Location: Your Shop Address</p>
+          <p className="ruler__location">Enquiry@suavedesign.africa: 0725611196</p>
         </div>
       </div>
     </div>
