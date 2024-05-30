@@ -1,78 +1,67 @@
-import React from 'react'
-import "../styles/Contact.css"
-import Title from './Title'
+import React from 'react';
+import '../styles/Contact.css';
 
 const Contact = () => {
   return (
-    
-
-    <>
-    <Title title='Contact Us'/>
-
-    <section className="contacts">
-
-    
-    <p className='contact-paragraph'>Any Request or remarks? Just write us a message!</p>
-    
-    {/* <p style="margin: -4rem auto 3rem;text-align:center; margin-top: 2rem;">Any question or remarks? Just write us a message!</p> */}
-    
-    <div className="contact-main-container">
-        <div className="contact-info-container">
-            <h2>Contact Information</h2>
-            <p>Fill up the form and a member of the team will get back to you within 24hrs </p>
-    
-        <div className="contact-social-links">
-            <a href="https://www.instagram.com/suaveaccessories/">
-                <div className="contact-icon-background"><i class="fa-brands fa-facebook-f"></i></div><p>suave_accessories</p>
-            </a>
-            <a href="https://www.instagram.com/suaveaccessories/">
-                <div className="contact-icon-background"><i class="fa-brands fa-instagram"></i></div><p>suaveaccessories</p>
-    
-            </a>
-            
-            <a href="">
-                <div className="contact-icon-background"><i class="fa-regular fa-envelope"></i></div><p>suaveaccessories@gmail.com</p>
-    
-            </a>
-            <a href="">
-                <div className="contact-icon-background"><i class="fa-solid fa-phone"></i></div><p>+254(0)725611196</p>
-    
-            </a>
-    
+    <div className="contact-page">
+      <main className="main-content">
+        <section className="hero">
+          <h1>We're here to listen.</h1>
+          <p>We create customized programs that blend proven strategies with tactical instruction for guaranteed results.</p>
+          <a href="#schedule" className="schedule-link">Schedule a meeting now</a>
+        </section>
+        <div className="form-container">
+          <section className="contact-form">
+            <form>
+              <div className="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="Suave Design" />
+              </div>
+              <div className="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Studios" />
+              </div>
+              <div className="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="suavedesign@gmail.com" />
+              </div>
+              <div className="form-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+254-725-611-196" />
+              </div>
+              <div className="form-group">
+                <label>Message</label>
+                <textarea placeholder="I need a website." />
+              </div>
+              <div className="form-group">
+                <label>How did you hear about us?</label>
+                <select>
+                  <option>Google</option>
+                  <option>Facebook</option>
+                  <option>Instagram</option>
+                  <option>Twitter</option>
+                </select>
+              </div>
+              <button type="submit" className="submit-button">Submit</button>
+            </form>
+          </section>
+          <aside className="contact-info">
+            <h2>Visit Us</h2>
+            <address>
+              6TH Floor<br />
+              The Arch Place, Kilimani<br />
+              Nairobi, KE
+            </address>
+            <a href="#directions" className="directions-link">Get Directions</a>
+            <h2>Say Hello</h2>
+            <p>
+              <a href="mailto:info@kawigraphics.com">info@kawigraphics.com</a>
+            </p>
+          </aside>
         </div>
-        </div>
-        <form  className="contact-form">
-            <fieldset>    
-                <label for="name">Full name</label>
-                <input type="text" placeholder="name" name="name"/>
-            </fieldset>
-            <fieldset>
-                <label for="email">Email</label>
-                <input type="email" placeholder="name@gmail.com" name="email"/>
-            </fieldset> 
-            <fieldset>
-                <label for="phone">Phone</label>
-                <input type="text" placeholder="+254" name="phone number"/>
-            </fieldset>
-            <fieldset>
-                <label for="subject">Subject</label>
-                <input type="text" placeholder="subject" name="Subject"/>
-            </fieldset>
-            <fieldset>
-                <label>Your Request</label>
-                <textarea name="Message" placeholder="write your Request here" ></textarea>
-            </fieldset>
-            <button type="submit">Submit</button>
-            
-    
-        </form>
+      </main>
     </div>
-    </section>
-   
-    </>
+  );
+};
 
-
-  )
-}
-
-export default Contact
+export default Contact;
