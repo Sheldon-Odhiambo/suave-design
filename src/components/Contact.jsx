@@ -55,7 +55,7 @@ const Contact = () => {
             <a href="#directions" className="directions-link">Get Directions</a>
             <h2>Say Hello</h2>
             <p>
-              <a href="mailto:info@kawigraphics.com">info@kawigraphics.com</a>
+              <a href="mailto:info@kawigraphics.com">info@suave-design.com</a>
             </p>
           </aside>
         </div>
