@@ -4,9 +4,7 @@ import service1 from '../assets/serv4.jpg';
 import service2 from '../assets/serv2.jpg';
 import service3 from '../assets/serv3.jpg';
 import service4 from '../assets/serv4.jpg';
-import "../styles/Home.css"
-
-
+import "../styles/Home.css";
 
 const Home = () => {
   const el = useRef(null);
@@ -68,6 +66,6 @@ const Home = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Home;

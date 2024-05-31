@@ -21,7 +21,7 @@ const Ruler = () => {
         </nav>
         <div className="ruler__bottom">
           <p>&copy; 2024 Suave Design</p>
-          <p className="ruler__location">Enquiry@suavedesign.africa: 0725611196</p>
+          <p className="ruler__location">Enquiry@suavedesign.africa: +254725611196</p>
         </div>
       </div>
     </div>
