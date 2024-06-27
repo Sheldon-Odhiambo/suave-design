@@ -69,13 +69,22 @@ const Service = () => {
       <img src={service1} alt="" />
     </section>
 
+    <section   className="our-consultation-container">
+      <div className="our-consultation-text">
+        <h2>Web Development</h2>
+        <p>Suave Design offers professional photography services to complement our comprehensive design solutions. Our experienced photographers capture stunning images that tell a story, evoke emotions, and enhance your brand's visual identity. Whether you need product photography, corporate headshots, event coverage, or lifestyle photos, our skilled team delivers high-quality images that align with your brand's aesthetic and messaging. With a keen eye for detail and a commitment to excellence, we ensure that every photograph reflects the essence of your brand and resonates with your target audience. Partner with Suave Design for captivating photography that elevates your brand and makes a lasting impression.</p>
+      </div>
+      <img src={service5} alt="" />
+    </section>
+
+
     
-   
+  
   </div>
 
   </>
 
- 
+
 
   )
 }
