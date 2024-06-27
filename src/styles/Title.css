@@ -8,11 +8,12 @@
     text-transform: uppercase;
 }
 
+
 .title hr{
     border: none;
     border-bottom: 3px solid #60A5FA;
     width: 50px;
     margin-top: -5px;
-    
+    align-items: center;
 
-}
+} 
