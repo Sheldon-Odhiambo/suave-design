@@ -33,7 +33,7 @@ const Home = () => {
       <div className="home-content">
         <div className="info">
           <h2>Suave Design</h2>
-          <h3>Where we! <span ref={el} className="change-content"></span></h3>
+          <h3>Where! <span ref={el} className="change-content"></span></h3>
           <p>
             Creative printing and branding encompass the art of strategically communicating a brand's identity and message through visually compelling designs and printed materials. In the realm of creative printing, innovative techniques and materials are utilized to produce eye-catching promotional items, signage, packaging, and more. This involves leveraging graphic design principles, typography, color schemes, and imagery to create impactful visuals that resonate with target audiences.
           </p>
